@@ -1,0 +1,18 @@
+#                                                                        #
+# Routes configuration                                                   #
+#                                                                        #
+# This file contains the configuration for the MVC router.               #
+# Just add your own modifications as necessary.                          #
+#                                                                        #
+# Please refer to the Flow manual for possible configuration options.    #
+#                                                                        #
+
+##
+# Scout Race subroutes
+
+-
+  name: 'Scout Race'
+  uriPattern: '<ScoutraceSubroutes>'
+  subRoutes:
+    ScoutraceSubroutes:
+      package: Scoutrace.Scoutrace
